@@ -31,7 +31,7 @@ if (process.env.NODE_ENV === 'development') {
 
 app.use(require('./conference'));
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 4000;
 
 http.createServer(app).listen(port, function (err) {
   console.log('listening in http://localhost:' + port);
